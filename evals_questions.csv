@@ -1,0 +1,17 @@
+id,type,question,expected,context_needed
+1,chart,What was the installed cost per watt in 2020?,2.20
+2,chart,Which region has the shortest average payback period and how long is it?,middle east;4.9
+3,table,How much does the inverter cost in a 6 kW system?,1080
+4,table,What is the efficiency of heterojunction (HJT) panels?,24.0
+5,table,What does inverter fault code E04 mean?,dc arc fault
+6,chart,In which month does the 5 kW system produce the most and how many kWh?,june;880
+7,image-text,What is the maximum safe roof wind speed for work?,30 km/h
+8,scan,What is the warranty claim hotline number?,1-800-555-0142
+9,scan,How can the inverter warranty be extended and what does it cost?,20 years;420
+10,chart,What share of global residential capacity does Europe hold in 2025?,27
+11,multi-hop,What is the average payback period of the region with the largest share of capacity?,5.2
+12,calculation,How much more per watt do HJT panels cost than polycrystalline panels?,0.16,0.38;0.22
+13,unanswerable,What is the price of a home battery?,NOT_FOUND
+14,unanswerable,How many employees does the installation company have?,NOT_FOUND
+15,text,What does PERC stand for?,passivated emitter and rear cell
+16,table,What is the annual degradation rate of TOPCon panels?,0.40

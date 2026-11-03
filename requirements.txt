@@ -1,0 +1,5 @@
+docling
+chromadb
+ollama 
+pillow
+rapidocr-onnxruntime

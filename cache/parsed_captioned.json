@@ -1,0 +1,600 @@
+[
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 1,
+    "content": "Residential Solar Energy"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 1,
+    "content": "Technology, Economics and Adoption, 2015-2025"
+  },
+  {
+    "type": "image",
+    "page": 1,
+    "image_path": "cache\\images\\page1_pic2.png",
+    "size": [
+      455,
+      263
+    ],
+    "ocr": "",
+    "caption": "Decorative cover illustration of rooftop solar panels."
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 1,
+    "content": "A synthetic report prepared for testing Retrieval-Augmented Generation (RAG) pipelines. All figures, names and numbers are invented for testing and must not be treated as real data."
+  },
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 2,
+    "content": "1. Executive Summary"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 2,
+    "content": "Residential solar has moved from a niche technology to a mainstream household investment. Between 2015 and 2025 the installed cost of a home system fell from USD 3.80 per watt to USD 1.50 per watt, a reduction of about 60 percent. Over the same period global residential capacity grew from 38 GW in 2018 to 166 GW in 2025, more than quadrupling in seven years."
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 2,
+    "content": "Asia-Pacific holds the largest share of residential capacity at 42 percent, followed by Europe at 27 percent and North America at 18 percent. Payback periods vary widely: the Middle East and Africa average 4.9 years, while North America averages 8.6 years because of lower electricity prices and higher labor costs."
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 2,
+    "content": "The main technology trend is a shift from polycrystalline panels to monocrystalline PERC and TOPCon modules. Heterojunction (HJT) panels reach the highest efficiency at 24.0 percent and the longest lifespan at 35 years, but cost USD 0.38 per watt compared with USD 0.22 per watt for polycrystalline panels."
+  },
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 2,
+    "content": "Key findings"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 2,
+    "content": "(1) A typical 6 kW system costs USD 9,000 installed. (2) Panels account for 38 percent of that cost and installation labor for 22 percent. (3) A 5 kW system in a temperate climate produces about 7,500 kWh per year and avoids 3,375 kg of CO 2 . (4) Output peaks in June at 880 kWh for the reference 5 kW system."
+  },
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 2,
+    "content": "2. Introduction"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 2,
+    "content": "Solar photovoltaic (PV) modules convert sunlight directly into electricity using semiconductor cells. When photons strike a cell, they free electrons and create a current of direct current (DC) electricity. An inverter then converts the DC output into alternating current (AC) suitable for household appliances and the utility grid."
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 2,
+    "content": "This report reviews the technology options available to homeowners, the economics of installation, global adoption trends, environmental benefits, and practical maintenance. It is organized so that each section contains a mix of narrative text, tables, charts and diagrams, which makes it suitable for evaluating document-understanding systems."
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 2,
+    "content": "The scope is limited to grid-tied residential systems between 3 kW and 10 kW. Utility-scale plants, off-grid cabins and commercial rooftops are outside the scope. Where the report quotes a figure, it is the reference value used throughout the document so that questions can be checked against a single consistent source."
+  },
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 3,
+    "content": "3. Solar Panel Technology"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 3,
+    "content": "Five panel technologies dominate the residential market. Their main differences are conversion efficiency, cost per watt, expected lifespan, and annual degradation, which is the percentage of output lost each year. Table 1 compares them."
+  },
+  {
+    "type": "table",
+    "page": 3,
+    "content": "Table 1: Comparison of residential solar panel technologies\n\n| Technology             |   Efficiency (%) |   Cost (USD/W) |   Lifespan (years) |   Degradation (%/yr) |\n|------------------------|------------------|----------------|--------------------|----------------------|\n| Monocrystalline PERC   |             21.5 |           0.28 |                 30 |                 0.45 |\n| Monocrystalline TOPCon |             23.0 |           0.31 |                 30 |                 0.40 |\n| Polycrystalline        |             17.0 |           0.22 |                 25 |                 0.70 |\n| Thin-film (CdTe)       |             18.5 |           0.25 |                 25 |                 0.50 |\n| Heterojunction (HJT)   |             24.0 |           0.38 |                 35 |                 0.25 |"
+  },
+  {
+    "type": "text",
+    "label": "caption",
+    "page": 3,
+    "content": "Table 1: Comparison of residential solar panel technologies"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 3,
+    "content": "Monocrystalline PERC (Passivated Emitter and Rear Cell) panels remain the volume leader, with an efficiency of 21.5 percent and a degradation rate of 0.45 percent per year. TOPCon (Tunnel Oxide Passivated Contact) improves on PERC by raising efficiency to 23.0 percent and lowering degradation to 0.40 percent per year for a modest price premium of USD 0.03 per watt."
+  },
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 3,
+    "content": "3.1 Why efficiency matters"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 3,
+    "content": "Efficiency determines how much power a panel produces per square meter. On a small roof, a higher efficiency panel can be the difference between meeting a household's demand and falling short. A 24.0 percent HJT module produces about 12 percent more energy per square meter than a 21.5 percent PERC module, so it can justify its higher price on space-constrained roofs."
+  },
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 3,
+    "content": "3.2 Thin-film and polycrystalline panels"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 3,
+    "content": "Polycrystalline panels are cheaper but less efficient at 17.0 percent, and they degrade faster at 0.70 percent per year. Thin-film cadmium telluride (CdTe) modules reach 18.5 percent and perform comparatively well in high heat and diffuse light, but their lower efficiency makes them uncommon on homes."
+  },
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 3,
+    "content": "3.3 System components"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 3,
+    "content": "A grid-tied system contains panels, mounting hardware, an inverter, a distribution panel connection, a monitoring gateway and, optionally, a battery. Figure 7 shows how energy flows between these components."
+  },
+  {
+    "type": "text",
+    "label": "caption",
+    "page": 4,
+    "content": "Figure 7: Components of a grid-tied residential solar system"
+  },
+  {
+    "type": "image",
+    "page": 4,
+    "image_path": "cache\\images\\page4_pic26.png",
+    "size": [
+      399,
+      231
+    ],
+    "ocr": "",
+    "caption": "Image on page 4.\nNo readable text."
+  },
+  {
+    "type": "text",
+    "label": "caption",
+    "page": 4,
+    "content": "Figure 7 shows the energy flow from panels to the grid, with an optional battery connected at the inverter."
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 4,
+    "content": "Photo: a typical rooftop installation of 32 panels facing south at a 30 degree tilt."
+  },
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 5,
+    "content": "4. Economics of Residential Solar"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 5,
+    "content": "The most important economic trend of the decade is the steady decline in installed cost. Figure 1 shows the fall from USD 3.80 per watt in 2015 to USD 1.50 per watt in 2025. The steepest single-year drop was between 2015 and 2016, when the cost fell by USD 0.40 per watt, while the most recent drop, 2024 to 2025, was USD 0.15 per watt."
+  },
+  {
+    "type": "image",
+    "page": 5,
+    "image_path": "cache\\images\\page5_pic31.png",
+    "size": [
+      429,
+      251
+    ],
+    "ocr": "Figure 1: Installed cost of residential solar (USD per watt), 2015-2025\n4.0  3.80\n3.5  3.40\nUSD per watt  2.0  2.5  3.0  1.5  3.00  2.70  2.45  2.20  2.05  1.95  1.80  1.65  1.50\n1.0  2016  2018  2020  Year  2022  2024",
+    "caption": "Image on page 5.\nText read from the image (OCR):\nFigure 1: Installed cost of residential solar (USD per watt), 2015-2025\n4.0  3.80\n3.5  3.40\nUSD per watt  2.0  2.5  3.0  1.5  3.00  2.70  2.45  2.20  2.05  1.95  1.80  1.65  1.50\n1.0  2016  2018  2020  Year  2022  2024\nValues matched to years by position on the chart: 2015: 3.80; 2016: 3.40; 2017: 3.00; 2018: 2.70; 2019: 2.45; 2020: 2.20; 2021: 2.05; 2022: 1.95; 2023: 1.80; 2024: 1.65; 2025: 1.50"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 5,
+    "content": "Year"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 5,
+    "content": "Hardware prices fell faster than installation costs. Panel prices dropped by roughly 70 percent over the decade, but labor, permitting and customer acquisition costs fell much more slowly, which is why labor is now the second largest cost item."
+  },
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 5,
+    "content": "4.1 Cost breakdown of a 6 kW system"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 5,
+    "content": "Table 2 breaks down the USD 9,000 cost of a reference 6 kW system. Panels are the largest item at USD 3,420 (38 percent), followed by installation labor at USD 1,980 (22 percent) and the inverter at USD 1,080 (12 percent)."
+  },
+  {
+    "type": "table",
+    "page": 5,
+    "content": "Table 2: Cost breakdown of a 6 kW residential system\n\n| Cost item                 |   Share (%) |   Cost (USD) |\n|---------------------------|-------------|--------------|\n| Solar panels              |          38 |        3,420 |\n| Inverter                  |          12 |        1,080 |\n| Mounting and racking      |           9 |          810 |\n| Installation labor        |          22 |        1,980 |\n| Permits and fees          |           8 |          720 |\n| Wiring, monitoring, other |          11 |          990 |\n| Total                     |         100 |        9,000 |"
+  },
+  {
+    "type": "text",
+    "label": "caption",
+    "page": 5,
+    "content": "Table 2: Cost breakdown of a 6 kW residential system"
+  },
+  {
+    "type": "image",
+    "page": 6,
+    "image_path": "cache\\images\\page6_pic38.png",
+    "size": [
+      298,
+      200
+    ],
+    "ocr": "Wiring, monitoring, other  11%\nSolar panels  38%  8%  Permits and fees\n22%  Installation labor\nInverter  12%  Mounting and racking  9%",
+    "caption": "Image on page 6.\nText read from the image (OCR):\nWiring, monitoring, other  11%\nSolar panels  38%  8%  Permits and fees\n22%  Installation labor\nInverter  12%  Mounting and racking  9%"
+  },
+  {
+    "type": "text",
+    "label": "caption",
+    "page": 6,
+    "content": "Figure 8: Cost breakdown of a 6 kW system (total USD 9,000)"
+  },
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 6,
+    "content": "4.2 Payback period by region"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 6,
+    "content": "Payback depends on local electricity prices, sunshine, incentives and installation costs. Figure 4 shows that the Middle East and Africa has the shortest average payback at 4.9 years, followed by Asia-Pacific at 5.2 years and Latin America at 6.1 years. Europe averages 7.8 years and North America 8.6 years."
+  },
+  {
+    "type": "image",
+    "page": 6,
+    "image_path": "cache\\images\\page6_pic42.png",
+    "size": [
+      416,
+      204
+    ],
+    "ocr": "Figure 4: Average payback period by region (years)\nAsia-Pacific  5.2 yrs\nEurope  7.8 yrs\nNorth America  8.6 yrs\nLatin America  6.1 yrs\nMiddle East & Africa  4.9 yrs\n0  2  4  Years  6  8  10",
+    "caption": "Image on page 6.\nText read from the image (OCR):\nFigure 4: Average payback period by region (years)\nAsia-Pacific  5.2 yrs\nEurope  7.8 yrs\nNorth America  8.6 yrs\nLatin America  6.1 yrs\nMiddle East & Africa  4.9 yrs\n0  2  4  Years  6  8  10"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 6,
+    "content": "Years"
+  },
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 7,
+    "content": "5. Global Adoption Trends"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 7,
+    "content": "Global residential capacity grew every year between 2018 and 2025. Figure 2 shows that capacity rose from 38 GW in 2018 to 46 GW in 2019, 58 GW in 2020, 72 GW in 2021, 90 GW in 2022, 112 GW in 2023, 138 GW in 2024 and 166 GW in 2025. The largest absolute increase was between 2024 and 2025 at 28 GW, ahead of 26 GW between 2023 and 2024."
+  },
+  {
+    "type": "image",
+    "page": 7,
+    "image_path": "cache\\images\\page7_pic46.png",
+    "size": [
+      428,
+      250
+    ],
+    "ocr": "160  Fil l  t   : o2s  166\n140  138\n(GW)  Capacity  100  120  40  60  80  38  46  58  72  90  112\n20\n0  2018  2019  2020  2021  Year  2022  2023  2024  2025",
+    "caption": "Image on page 7.\nText read from the image (OCR):\n160  Fil l  t   : o2s  166\n140  138\n(GW)  Capacity  100  120  40  60  80  38  46  58  72  90  112\n20\n0  2018  2019  2020  2021  Year  2022  2023  2024  2025"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 7,
+    "content": "Regional distribution is uneven. Asia-Pacific accounts for 42 percent of installed residential capacity, helped by large rooftop programs and falling hardware costs. Europe holds 27 percent, driven by high electricity prices after 2022, and North America holds 18 percent."
+  },
+  {
+    "type": "image",
+    "page": 7,
+    "image_path": "cache\\images\\page7_pic48.png",
+    "size": [
+      288,
+      197
+    ],
+    "ocr": "6%  Middle East & Africa  7%  Latin America\nAsia-Pacific  42%  18%  North America\n27%  Europe",
+    "caption": "Image on page 7.\nText read from the image (OCR):\n6%  Middle East & Africa  7%  Latin America\nAsia-Pacific  42%  18%  North America\n27%  Europe"
+  },
+  {
+    "type": "text",
+    "label": "caption",
+    "page": 7,
+    "content": "Figure 3: Share of global residential solar capacity by region, 2025"
+  },
+  {
+    "type": "table",
+    "page": 8,
+    "content": "Table 3: Regional adoption summary, 2025\n\n| Region               |   Share of capacity (%) |   Average payback (years) |   Capacity in 2025 (GW) |\n|----------------------|-------------------------|---------------------------|-------------------------|\n| Asia-Pacific         |                      42 |                       5.2 |                    69.7 |\n| Europe               |                      27 |                       7.8 |                    44.8 |\n| North America        |                      18 |                       8.6 |                    29.9 |\n| Latin America        |                       7 |                       6.1 |                    11.6 |\n| Middle East & Africa |                       6 |                       4.9 |                    10.0 |"
+  },
+  {
+    "type": "text",
+    "label": "caption",
+    "page": 8,
+    "content": "Table 3: Regional adoption summary, 2025"
+  },
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 9,
+    "content": "6. Performance and Roof Area"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 9,
+    "content": "Annual generation scales almost linearly with usable roof area. In a sample of 60 homes, the correlation coefficient between roof area and annual generation was r = 0.99. As a rule of thumb, each square meter of usable roof produces about 165 kWh per year in the study climate."
+  },
+  {
+    "type": "image",
+    "page": 9,
+    "image_path": "cache\\images\\page9_pic54.png",
+    "size": [
+      430,
+      255
+    ],
+    "ocr": "Figure 5: Roof area vs annual generation, 60 homes (r = 0.99)\n12000\n10000\nAnnual generation (kWh)  8000\n6000\n4000\n2000\n20  30  Usable roof area (m\u00b2)  40  50  60  70  80",
+    "caption": "Image on page 9.\nText read from the image (OCR):\nFigure 5: Roof area vs annual generation, 60 homes (r = 0.99)\n12000\n10000\nAnnual generation (kWh)  8000\n6000\n4000\n2000\n20  30  Usable roof area (m\u00b2)  40  50  60  70  80"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 9,
+    "content": "Generation also varies by season. Figure 6 shows the monthly output of a 5 kW reference system. Production peaks at 880 kWh in June and reaches its lowest point at 369 kWh in December. The annual total is 7,500 kWh, the sum of the monthly values."
+  },
+  {
+    "type": "image",
+    "page": 9,
+    "image_path": "cache\\images\\page9_pic56.png",
+    "size": [
+      418,
+      207
+    ],
+    "ocr": "800\n600\nkWh  400\n200\n0  Jan  Feb  Mar  Apr  May  Jun  Jul  Aug  Sep  Oct  Nov  Dec",
+    "caption": "Image on page 9.\nText read from the image (OCR):\n800\n600\nkWh  400\n200\n0  Jan  Feb  Mar  Apr  May  Jun  Jul  Aug  Sep  Oct  Nov  Dec"
+  },
+  {
+    "type": "text",
+    "label": "caption",
+    "page": 9,
+    "content": "Figure 6: Monthly output of a 5 kW system (kWh); peak in June at 880 kWh"
+  },
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 9,
+    "content": "7. Environmental Impact"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 9,
+    "content": "Each kilowatt-hour generated by a home system displaces grid electricity. Using a grid emission factor of 0.45 kg of CO 2 per kWh, Table 4 estimates the annual emissions avoided for three common system sizes. One tree is assumed to absorb about 21.8 kg of CO 2 per year."
+  },
+  {
+    "type": "table",
+    "page": 10,
+    "content": "Table 4: Annual CO2 avoided by system size\n\n|   System size (kW) |   Annual generation (kWh) |   CO2 avoided (kg/yr) |   Equivalent trees planted |\n|--------------------|---------------------------|-----------------------|----------------------------|\n|                  3 |                     4,500 |                 2,025 |                         93 |\n|                  5 |                     7,500 |                 3,375 |                        155 |\n|                  8 |                    12,000 |                 5,400 |                        248 |"
+  },
+  {
+    "type": "text",
+    "label": "caption",
+    "page": 10,
+    "content": "Table 4: Annual CO2 avoided by system size"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 10,
+    "content": "The carbon payback time of a modern panel, which is the time needed to offset the emissions from manufacturing it, is between one and two years. Over a 30 year lifespan, a panel therefore generates clean electricity for more than 90 percent of its life."
+  },
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 11,
+    "content": "8. Operation, Maintenance and Safety"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 11,
+    "content": "Residential systems have no moving parts and need little maintenance. Panels should be inspected visually twice per year, and cleaned when dust, pollen or bird droppings visibly reduce output. In rainy climates natural rainfall usually keeps panels clean enough."
+  },
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 11,
+    "content": "8.1 Common inverter fault codes"
+  },
+  {
+    "type": "table",
+    "page": 11,
+    "content": "Table 5: Inverter fault codes, causes and recommended actions\n\n| Code   | Description        | Likely cause                            | Action                                     |\n|--------|--------------------|-----------------------------------------|--------------------------------------------|\n| E01    | Grid overvoltage   | Utility voltage above 253 V             | Wait 5 min; call utility if it persists    |\n| E02    | Ground fault       | Damaged cable insulation or moisture    | Shut down; inspect by licensed electrician |\n| E03    | Over-temperature   | Blocked inverter vents                  | Clear ventilation; check ambient heat      |\n| E04    | DC arc fault       | Loose connector or damaged panel wiring | Shut down immediately; professional repair |\n| E05    | Communication loss | Wi-Fi drop or faulty gateway            | Restart gateway; check router signal       |"
+  },
+  {
+    "type": "text",
+    "label": "caption",
+    "page": 11,
+    "content": "Table 5: Inverter fault codes, causes and recommended actions"
+  },
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 11,
+    "content": "8.2 Safety"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 11,
+    "content": "Safety rules for cleaning and roof work are summarized on the notice below. The notice is included as an image so that vision and OCR systems can be tested on text that is not part of the PDF text layer."
+  },
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 11,
+    "content": "SAFETYNOTICE"
+  },
+  {
+    "type": "text",
+    "label": "list_item",
+    "page": 11,
+    "content": "Before cleaning panels, switch the AC isolator OFF."
+  },
+  {
+    "type": "text",
+    "label": "list_item",
+    "page": 11,
+    "content": "Never clean panels when surface temperature exceeds 45 C."
+  },
+  {
+    "type": "text",
+    "label": "list_item",
+    "page": 11,
+    "content": "Use soft brush and deionized water only; no detergents."
+  },
+  {
+    "type": "text",
+    "label": "list_item",
+    "page": 11,
+    "content": "Maximum safe roof wind speed for work: 30 km/h."
+  },
+  {
+    "type": "text",
+    "label": "list_item",
+    "page": 11,
+    "content": "Emergency contact: Solar Safety Desk, ext. 4471."
+  },
+  {
+    "type": "text",
+    "label": "caption",
+    "page": 11,
+    "content": "Figure 9: Safety notice (image containing text)."
+  },
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 11,
+    "content": "9. Conclusions"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 11,
+    "content": "Residential solar is now cost-competitive in most regions. The combination of falling hardware prices, improving panel efficiency and growing policy support suggests that capacity will keep growing, although labor and permitting costs are now the main barrier to further price reductions."
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 11,
+    "content": "For homeowners the key decision factors are roof area, local electricity price, available incentives and panel technology. For policymakers, the priorities are simplifying permitting and supporting grid upgrades that can absorb distributed generation."
+  },
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 12,
+    "content": "Appendix C: Warranty and Service Terms (scanned page)"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 12,
+    "content": "The following page is a scanned image with no text layer. It is included to test OCR."
+  },
+  {
+    "type": "text",
+    "label": "section_header",
+    "page": 12,
+    "content": "Appendix C: Warranty and Service Terms"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 12,
+    "content": "(Scanned copy of the original installer contract, page 14)"
+  },
+  {
+    "type": "text",
+    "label": "list_item",
+    "page": 12,
+    "content": "C.1 Panel product warranty: 12 years against manufacturing defects."
+  },
+  {
+    "type": "text",
+    "label": "list_item",
+    "page": 12,
+    "content": "C.2 Panel performance warranty: 25 years, guaranteeing at least 84.8% of rated output at the end of year 25."
+  },
+  {
+    "type": "text",
+    "label": "list_item",
+    "page": 12,
+    "content": "C.3 Inverter warranty: 10 years, extendable to 20 years for a fee of USD 420 paid before the end of year 8."
+  },
+  {
+    "type": "text",
+    "label": "list_item",
+    "page": 12,
+    "content": "C.4 Installer workmanship warranty: 5 years on roof penetrations, wiring and mounting hardware."
+  },
+  {
+    "type": "text",
+    "label": "list_item",
+    "page": 12,
+    "content": "C.5 Service response time: 48 hours for faults coded E02 or E04; 5 working days for all other faults."
+  },
+  {
+    "type": "text",
+    "label": "list_item",
+    "page": 12,
+    "content": "C.6 Warranty claim hotline: 1-800-555-0142 (Mon-Sat, 8 am to 6 pm)."
+  },
+  {
+    "type": "text",
+    "label": "list_item",
+    "page": 12,
+    "content": "C.7 Annual inspection fee after year 5: USD 95 per visit."
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 12,
+    "content": "Signed:"
+  },
+  {
+    "type": "text",
+    "label": "text",
+    "page": 12,
+    "content": "Date:__/__"
+  }
+]

@@ -1,0 +1,35 @@
+import io
+import json
+import time
+from pathlib import Path
+import ollama
+from PIL import Image
+
+MODEL = "granite3.2-vision"
+PAGE = 5    
+MAX_SIDE = 1024  
+
+PROMPT = (
+    "Describe this chart. State the chart type, the title, what each axis shows, "
+    "and the overall trend. Do not guess values you cannot read."
+)
+
+items = json.loads(Path("cache/parsed.json").read_text(encoding="utf-8"))
+image = next(i for i in items if i["type"] == "image" and i["page"] == PAGE)
+print("Using", image["image_path"])
+
+img = Image.open(image["image_path"]).convert("RGB")
+if max(img.size) > MAX_SIDE:
+    s = MAX_SIDE / max(img.size)
+    img = img.resize((int(img.width * s), int(img.height * s)))
+buf = io.BytesIO()
+img.save(buf, format="PNG")
+
+start = time.time()
+response = ollama.chat(
+    model=MODEL,
+    messages=[{"role": "user", "content": PROMPT, "images": [buf.getvalue()]}],
+    options={"temperature": 0, "num_predict": 250, "num_ctx": 4096},
+)
+print(f"\nTook {time.time() - start:.0f} seconds\n")
+print(response["message"]["content"])
